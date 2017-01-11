@@ -46,14 +46,27 @@ var redNode = document.querySelectorAll(".red");
 redNode[0].parentNode.removeChild(redNode[0]);
 redNode[1].parentNode.removeChild(redNode[1]);
 ```
+```
+var redNode = document.querySelectorAll(".red");
+for(var i = 0; i < redNode.length; i++) {
+	redNode[i].parentNode.removeChild(redNode[i]);
+}
+```
 ### 미션7
 section 태그의 자손 중에 blue라는 클래스를 가지고 있는 노드가 있다면,
 그 하위에 있는 h2 노드를 삭제합니다.
 
 ```html
 var blueNode = document.querySelector("section .blue");
-var parentNode = blueNode.parentNode.parentNode;
+var parent = blueNode.parentNode.parentNode;
 var h2Node = document.querySelector("section h2");
 
-parentNode.removeChild(h2Node);
+parent.removeChild(h2Node);
+```
+```
+var sectionNode = document.querySelector("section");
+
+if(!(sectionNode.querySelector(".blue") === null)) {
+	sectionNode.removeChild(sectionNode.querySelector("h2"));
+}
 ```
