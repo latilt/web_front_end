@@ -1,0 +1,19 @@
+* {
+
+}
+
+section {
+  margin: 15px;
+}
+
+.view {
+  border: 1px solid black;
+  width: 100px;
+  height: 20px;
+}
+
+.addressView {
+  border: 1px solid black;
+  width: 100px;
+  1height: 20px;
+}
