@@ -7,7 +7,7 @@ class MyArray {
 		return this.arr[index];
 	}
 
-	insert(index, value) {
+	insert(index, value) { // n
 		if(typeof this.arr[index] !== 'undefined') {
 			for(var i = this.arr.length; i >= index; i--) {
 				this.arr[i] = this.arr[i-1];
@@ -16,20 +16,20 @@ class MyArray {
 		this.arr[index] = value;
 	}
 
-	delete(index) {
+	delete(index) { // n
 		for(var i = index, j = this.arr.length; i < j; i++) {
 			this.arr[i] = this.arr[i+1];
 		}
 		this.arr.pop();
 	}
 
-	printAll() {
+	printAll() { // n
     for(var i = 0; i < this.arr.length; i++) {
       console.log(this.arr[i]);
     }
 	}
 
-	get length() {
+	get length() { // n
     var count = 0;
     var flag = 0;
     while(typeof flag !== 'undefined') {
@@ -40,7 +40,7 @@ class MyArray {
 	}
 
 	//search value and return index of the value
-	search(value) {
+	search(value) { // log(n)
     var min = 0;
     var max = this.arr.length;
     var middle = -1;
