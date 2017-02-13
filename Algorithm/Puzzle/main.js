@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var start = document.querySelector("#start");
   start.addEventListener("click", function(evt){
     var number = evt.target.previousElementSibling.value * 1;
+    console.log(number);
+    if(Number.isNaN(number) || number <= 1) return;
     puzzle = new Puzzle(number);
     puzzle.deletePuzzle();
     puzzle.makePuzzle();
