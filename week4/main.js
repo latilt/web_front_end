@@ -13,7 +13,7 @@ var randomName = {
     var firstNumber = Math.floor(Math.random() * 10);
     var middleNumber = Math.floor(Math.random() * 10);
     var lastNumber = Math.floor(Math.random() * 10);
-
+    // 숫자 10을 array의 길이로 바꾸자 array.length();
     var result = this.first[firstNumber] + this.middle[middleNumber] + this.last[lastNumber];
 
     var view = document.querySelector(".view");

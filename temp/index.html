@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <script src="main.js"></script>
+
+  <script>
+  function allowDrop(ev) {
+    ev.preventDefault();
+}
+    function drop(ev) {
+      console.log("drop");
+      ev.preventDefault();
+      var data = ev.dataTransfer.getData("text/plain");
+      console.log(typeof data);
+      ev.target.appendChild(document.getElementById(data));
+    }
+
+
+  </script>
+</head>
+
+<body>
+
+  <div id="box">
+    <div id="drag1" class="container" >
+1
+    </div>
+    <div id="drag2" class="container" >
+2
+    </div>
+    <div id="drag3" class="container" >
+3
+    </div>
+    <div id="drag4" class="container" >
+4
+    </div>
+    <div id="drag5" class="container" >
+5
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

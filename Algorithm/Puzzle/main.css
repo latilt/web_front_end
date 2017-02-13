@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.outBox {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+
+}
+
+.inBox {
+  box-sizing: border-box;
+  border: 1px solid red;
+  float: left;
+
+  text-align: center;
+}
