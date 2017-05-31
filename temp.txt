@@ -1,0 +1,171 @@
+https://brunch.co.kr/@imagineer/194
+꼭 읽으면 좋지만 여전히 권장하는 걸 잘 하지 않는 여러분들을 위해서 요약하면
+- 3개월 개발자 과정을 공부해서 200번 이력서 낸 끝에 10만불 연봉으로 실리콘 밸리 스타트업에 취업 성공
+- 진짜 사람에게 연락할 것
+- 작게 시작하고, 천천히 점진적으로 발전할 것
+- 미래에 그것이 필요하다는 생각으로 공부할 것
+- 좋은 인상을 남길 것
+- 단거리가 아니라 마라톤임을 명심할 것
+- 자신의 취약점을 스스로 깨닫고 미친 듯이 공부할 것 (블로거의 경우는 자료구조와 알고리즘 - 사이트도 강추들임)
+
+https://opentutorials.org/course/1688
+https://www.youtube.com/watch?v=XC-Im_kRPxM
+https://gettingbit.com/resources/
+https://github.com/ggomaeng/better-developer-quotes
+
+알고리즘 문제 풀이
+한글)
+https://www.acmicpc.net/
+https://algospot.com/
+http://tryhelloworld.co.kr/challenges
+영어)
+https://www.hackerrank.com/
+https://www.hackerearth.com/challenges/
+https://leetcode.com/
+
+http://tryhelloworld.co.kr/challenges
+
+https://brunch.co.kr/magazine/indiegamedev
+
+https://docs.google.com/document/d/1_phA5XUszSmN7Ta-QHs4DxRz9_iu8YlhxpVjSGEbWcg/mobilebasic
+
+http://www.slideshare.net/guruguru/ss-14241987
+https://ko.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
+https://asciinema.org/a/dgjytvzt2tf03i17yzpmhml10
+http://www.mobiinside.com/kr/2017/01/19/programerlife-6/
+http://www.slideshare.net/deview/d2-campus-seminar-45208485
+http://algo-visualizer.jasonpark.me/#path=scratch/321acd0196b5aacfad9bafe9fdecda3c
+https://visualgo.net
+http://www.algomation.com/player?algorithm=561f48be3b413d0300700cc9
+https://medium.com/@parkgeunhack/알렉스의-이야기-그리고-서버-개발일지-c3aa12baaa75#.7euedv7ht
+https://static.googleusercontent.com/media/research.google.com/ko//archive/gfs-sosp2003.pdf
+http://egloos.zum.com/agile/v/5749946
+http://blog.novice.io/post/yidojeog-suryeon-bangbadageul-bbalri-daggeuryeomyeon
+https://github.com/mixed/github-usecase
+http://okky.kr/article/372485
+https://www.designerschool.net/classrooms/16
+https://www.designerschool.net/classrooms/24/posts/560
+https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/
+
+http://b.ssut.me/55?category=1
+
+https://github.com/honux77/lectures/blob/master/stove/5-1-vcs-contrib.md
+
+https://git-scm.com/book/ko/v2/분산-환경에서의-Git-프로젝트에-기여하기
+https://brunch.co.kr/@imagineer/215
+https://www.youtube.com/playlist?list=PLVsNizTWUw7EoFNBhIdVFp9eT6P22hU1o
+https://slipp.net/wiki/pages/viewpage.action?pageId=5177718
+- 코딩인터뷰 완전분석 : http://www.yes24.com/24/Goods/7434347
+- Introduction to Algorithms : http://www.yes24.com/24/Goods/13776831
+http://m.blog.naver.com/adonise007/220578209008
+https://hyunseob.github.io/2016/02/08/copy-object-in-javascript/
+https://www.inflearn.com/course/%EC%BD%94%EB%94%A9-%EC%9D%B8%ED%84%B0%EB%B7%B0-%EC%99%84%EC%A0%84-%EB%B6%84%EC%84%9D-%ED%92%80%EC%9D%B4-%ED%8C%8C%EC%9D%B4%EC%8D%AC/
+http://www.slideshare.net/jayjin0427/ss-71896768
+http://www.bloter.net/archives/197960
+https://piazza.com/class/iwd2vwf6lau284
+http://it.donga.com/22351/
+https://github.com/raywenderlich/swift-algorithm-club
+https://brunch.co.kr/@imagineer/222
+https://visualgo.net/list
+https://www.letsbuildthatapp.com/course/YouTube
+https://opentutorials.org/course/1503/8377
+http://stackoverflow.com/questions/10505431/how-does-trello-show-history-so-quickly
+https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
+http://partners.disney.com/hour-of-code?cds&cmp=vanity%7Cnatural%7Cus%7Cmoanahoc%7C
+http://asfirstalways.tistory.com/293
+https://goo.gl/photos/pvvNAPisHwVyaiuU9
+https://taegon.kim/archives/5770
+https://github.com/mixed/github-usecase
+https://docs.google.com/spreadsheets/d/1DX4fV8UiQFcUM8ROJsAhGqKHiOOEf0AxxinhGc9-xOA/edit#gid=0
+https://chrome.google.com/webstore/detail/vimeo-repeat-speed/noonakfaafcdaagngpjehilgegefdima/related?hl=ko
+https://www.facebook.com/groups/codesqaudplayer/
+http://sonim1.tistory.com/106
+http://www.pythontutor.com/visualize.html#mode=edit
+http://sculove.github.io/blog/2016/12/02/console-log%EB%A5%BC-%EC%A7%80%EC%9B%8C%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/?refer=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_content=buffer0d12f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+http://tryhelloworld.co.kr/courses/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/
+https://github.com/tipjs/javascript-style-guide
+http://www.slideshare.net/OhgyunAhn/ss-61189141
+http://slides.com/preco21/woah-2016
+https://www.codecademy.com/learn/javascript
+http://calebgrove.com/articles/js-console-sublime-text
+https://githubreportcard.reflect.io/
+http://learngitbranching.js.org/
+http://learnbranch.urigit.com/
+http://www.webpagefx.com/tools/emoji-cheat-sheet/
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+http://www.playsw.or.kr/repo/cast/109
+https://github.com/qkraudghgh/clean-code-javascript-ko
+http://d2.naver.com/helloworld/59361
+https://jsfiddle.net/
+http://poiemaweb.com/css3-selector
+http://m.mkexdev.net/107
+https://github.com/airbnb/css
+https://github.com/CodeMakeBros/css-style-guide ( 한글 번역본 )
+http://www.w3resource.com/javascript-exercises/
+https://color.adobe.com/ko/
+https://coolors.co/
+https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573
+
+http://www.cssdesignawards.com/
+http://gdweb.co.kr/
+https://thenounproject.com/
+http://ko.learnlayout.com/position.html
+http://egloos.zum.com/agile/v/5664879
+http://d2.naver.com/news/3552619
+http://aboooks.tistory.com/327
+https://developer.mozilla.org/ko/docs/Web/CSS/Understanding_z-index/The_stacking_context
+http://todomvc.com/
+http://www.slideshare.net/jisuyoun/clean-frontend-development
+https://brunch.co.kr/@techhtml/21
+https://developer.mozilla.org/ko/docs/Web/API/ChildNode/remove
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related
+http://poiemaweb.com/js-event
+https://developers.google.com/web/tools/chrome-devtools/javascript/
+(유지보수 및 확장할 수 있는 HTML 문서를 만들기 위해)
+`HTML Best Practices` 번역이 되어 있네요~~
+https://github.com/techhtml/html-best-practices/blob/master/README.ko.md
+
+영어를 잘하시는 분은 ^^
+https://github.com/techhtml/html-best-practices/blob/master/README.md
+https://github.com/nhnent/fe.javascript/wiki
+https://taegon.kim/archives/4810
+https://i0.wp.com/taegon.kim/wp-content/uploads/2014/07/Q3cUg29.gif?ssl=1
+http://100dayscss.com/
+[WEB]  용어정리 및 참고사이트 정리 공동 문서입니다.
+https://docs.google.com/spreadsheets/d/1tAjeneRaMlE9ULGkx3ehWyzfD4Ibl4xYJIjzhBwFpkg/edit?usp=sharing
+https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean
+https://jack.ofspades.com/multiline-strings-in-es6-javascript/
+https://cinabrosite.wordpress.com/2017/01/24/cookie_session/
+https://regexper.com
+https://regex101.com
+https://regexone.com/
+https://unsplash.com/
+https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/
+https://github.com/honux77/lectures/blob/master/stove/5-1-vcs-contrib.md
+http://b.ssut.me/55?category=1
+https://git-scm.com/book/ko/v2/%EB%B6%84%EC%82%B0-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-Git-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EA%B8%B0%EC%97%AC%ED%95%98%EA%B8%B0
+http://poiemaweb.com/css3-responsive-web-design
+http://youmightnotneedjquery.com/
+
+https://vimeo.com/203193041/ad921d1f3e
+
+https://pages.github.com/
+http://htmlreference.io/
+http://d2.naver.com/news/9546098
+https://vimeo.com/204281949/de98d7640a
+https://vimeo.com/204282285/be36ac36f1
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes
+http://steadypost.net/post/lecture/id/13/
+https://vimeo.com/204827550/272678da20
+https://vimeo.com/204827586/5da46a7bc3
+좋은 commit 의 단위 = 한 문장으로 요약할 수 있는 내용
+두 가지 이상의 내용이 포함되면 그건 두 커밋으로 분리하는 게 맞습니다.
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+https://www.vobour.com/book/view/M44A6i977adRR54g2
+https://github.com/nigayo/education/blob/master/learning/afterWhite.md
+https://goo.gl/6jS6GF
+https://goo.gl/kaEm28

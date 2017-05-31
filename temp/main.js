@@ -1,66 +1,71 @@
 document.addEventListener("DOMContentLoaded", function() {
+  var wrap = document.querySelector(".wrap");
+  document.addEventListener("click", ea.bind(null, wrap));
+
+
   var con = document.querySelector("#box");
   var moveNode;
-  var fakeNode;
-  con.addEventListener("mouseover", function(evt) {
+  var fakeNode = document.querySelector(".container");
+  var x, y;
+  var flag = 0;
+  var evtbox;
+  document.addEventListener("mousedown", function(evt) {
+    console.log(evt);
+    flag = 0;
+  });
 
-    evt.target.draggable = "true";
-    evt.preventDefault();
+  document.addEventListener("mousemove", function(evt1) {
+    evt1.preventDefault();
 
-    evt.target.addEventListener("dragstart", function(evt1) {
+    if(evt1.buttons === 0 ) return;
 
-      moveNode = evt1.target;
-      console.log(evt1.target);
+    if(evt1.buttons === 1 && flag === 0 && evt1.target.classList.contains("box")) {
+      evtbox = evt1;
+      x = evt1.offsetX;
+      y = evt1.offsetY;
+      flag = 1;
+
+      var height = window.getComputedStyle(evtbox.target).getPropertyValue("height");
+      console.log(height);
 
       fakeNode = document.createElement("div");
-      fakeNode.style.width = "100px";
-      fakeNode.style.height = "100px";
-      fakeNode.style.border = "1px solid blue";
-      fakeNode.style.float = "left";
-      moveNode.parentElement.replaceChild(fakeNode, moveNode);
+      fakeNode.classList.add("box");
+      fakeNode.classList.add("fake");
+      fakeNode.style.height = height;
+      document.querySelector(".Wrapper").insertBefore(fakeNode, evtbox.target);
+      fakeNode.offsetWidth;
+      document.querySelector("body").appendChild(evtbox.target);
+    }
 
-      evt1.dataTransfer.setData("text/html", evt1.target.id);
-      evt1.dataTransfer.effectAllowed = "move";
+    if(flag === 1) {
+      evtbox.target.style.position = "absolute";
+      evtbox.target.style.left = (evt1.pageX - x)+"px";
+      evtbox.target.style.top = (evt1.pageY - y)+"px";
 
+      var b = Math.floor(evt1.pageX / 70);
+      var c = evt1.pageX % 70;
+      console.log(b);
+      if(c > 20) {
+        var a = document.querySelector(".Wrapper").children[b];
 
-    });
+        if(c > 45) {
+          a.parentElement.insertBefore(fakeNode, a);
+        } else {
+          a.parentElement.insertBefore(fakeNode, a.nextElementSibling);
+        }
+      }
+      evtbox.stopPropagation();
+    }
 
   });
-
-  con.addEventListener("drop", function(evt5) {
-    if(evt5 === moveNode) return;
-
-    console.log("drop");
-    evt5.preventDefault();
-    var data = evt5.dataTransfer.getData("text/html");
-    console.log(data);
-
-    evt5.target.parentElement.insertBefore(moveNode, evt5.target);
-    //evt5.target.innerHTML = data;
-  })
-
-  con.addEventListener("mouseout", function(evt3) {
-    // console.log(evt3.target.draggable);
-    // for(var i = 0; i < evt3.target.parentElement.length; i++) {
-    //   evt3.target.parentElement.children[i].draggable = "false";
-    // }
-    //evt3.target.draggable = "false";
+  document.addEventListener("mouseup", function(){
+    if(flag !== 1) return;
+    evtbox.target.style = "";
+    fakeNode.parentElement.replaceChild(evtbox.target, fakeNode);
   });
-
-  con.addEventListener("dragover", function(evt2) {
-    //console.log(evt2.target);
-
-    evt2.preventDefault();
-  });
-
-
 });
 
- function dragstart_handler(ev) {
-
-   //console.log(ev.target);
-   ev.dataTransfer.setData("text/plain", ev.target.id);
-   ev.dataTransfer.dropEffect = "move";
-   //console.log(ev.parentElement);
-   ev.parentElement.removeChild(ev.target);
- };
+function ea(wrap, evt) {
+  console.log(wrap, evt);
+  //wrap.innerText = "hahaha";
+}

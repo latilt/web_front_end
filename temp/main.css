@@ -1,21 +1,76 @@
-div {
-  border: 1px solid black;
+body {
+  border: 1px solid blue;
+  margin: 0;
 }
 
+.wrap {
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  position: absolute;
+}
+
+
+.Wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .container {
   border: 1px solid red;
   width: 100px;
   height: 100px;
-  float:left;
+  1float:left;
   margin: 0 10px;
 }
 
 
 .drop {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
+}
+.box:nth-child(1) {
+  margin-left: 20px;
+}
+.box {
+  1display:inline-block;
+  float:left;
+  width: 50px;
+  1height: 100px;
+  margin: 0px 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
-#box {
-  overflow:hidden;
+#box1 {
+  height: 50px;
+}
+
+#box2 {
+  height: 100px;
+}
+
+#box3 {
+  height: 150px;
+}
+
+#box4 {
+  height: 75px;
+}
+
+#box5 {
+  height: 125px;
+}
+
+.fake {
+  border: 1px solid red;
+}
+
+.aaa {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  margin: 10px;
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
 }
